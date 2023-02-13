@@ -1,0 +1,5 @@
+libscn (1.1.2-1) jammy; urgency=medium
+
+  * Initial packaging work with debuild.
+ 
+ -- Pawel Wodkowski <pawelwod@gmail.com>  Mon, 13 Feb 2023 15:00:00 +0300

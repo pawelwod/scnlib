@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: scanlib
+Source: https://github.com/eliaskosunen/scnlib
+
+Files: *
+Copyright: 2017 Elias Kosunen
+           and many other contributors.
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2023 Pawel Wodkowski
+License: Apache-2.0
+
+Files: include/ranges/*
+Copyright: 2017 Elias Kosunen
+	   2018 Tristan Brindle
+License: Apache-2.0 or BSL-1.0
+
+Files: include/unicode/*
+Copyright: 2017 Elias Kosunen
+	   2006 Nemanja Trifunovic
+License: Apache-2.0 or BSL-1.0
+
+Files: src/deps/fast-float
+Copyright: 2021 The fast_float authors
+License: Apache-2.0 or MIT

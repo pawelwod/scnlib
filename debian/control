@@ -1,0 +1,14 @@
+Source: libscn
+Maintainer: Pawel Wodkowski <pawelwod@gmail.com>
+Build-Depends: cmake, dh-cmake, dh-cmake-compat (= 1), dh-sequence-cmake, debhelper-compat (= 12)
+Standards-Version: 4.1.5
+Homepage: https://github.com/eliaskosunen/scnlib
+Section: libs
+Priority: optional
+
+Package: libscn-dev
+Architecture: amd64
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: scnlib librarary
+ This package contains the static libraries and includes for the scanlib.
